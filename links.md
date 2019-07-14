@@ -10,7 +10,9 @@ Getting Started with Compute Engine
 http://plrsig.ht/GCP_Course01_Lab02<br>
 3
 Getting Started with Cloud Storage and Cloud SQL
-http://plrsig.ht/GCP_Course01_Lab03<br>
+<a href="http://plrsig.ht/GCP_Course01_Lab03" target="Blank">
+  http://plrsig.ht/GCP_Course01_Lab03 
+</a><br>
 4
 Getting Started with Kubernetes Engine
 http://plrsig.ht/GCP_Course01_Lab04<br>
