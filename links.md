@@ -51,3 +51,15 @@ http://plrsig.ht/GCP_Course03_Lab06<br>
 ECI LAB: Error Reporting and Debugging with
 Stackdriver
 http://plrsig.ht/GCP_Course03_Lab07<br>
+
+
+
+
+# Git
+
+These are useful links i used while leraning git:
+
+* https://nvie.com/posts/a-successful-git-branching-model/
+* https://algorithmia.com/blog/how-to-version-control-your-production-machine-learning-models
+* https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts
+ 
