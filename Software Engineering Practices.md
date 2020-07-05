@@ -12,8 +12,8 @@ Every code should be:
 - [Well documented](#documentation) 
 - [version controled](#version-control) 
 - [Tested](#testing)
-- Logging and
-- reviewed
+- [Logging](#logging) and
+- [reviewed](#code-review)
 
 This makes code to be reused and shared among other developers.
 It helps reliability and easier maintenance of source code.
@@ -151,7 +151,51 @@ in the test output, periods represent successful unit tests and F's represent fa
 
 Integration testing exercises two or more parts of an application at once, including the interactions between the parts, to determine if they function as intended.
 
-See [here](https://www.fullstackpython.com/integration-testing.html) for more info.
+Read more [here](https://docs.python-guide.org/writing/tests/#py-test) and [here](https://www.fullstackpython.com/integration-testing.html) for more info.
+
+## Logging
+	
+	Logging is valuable for understanding the events that occur while running code.
+
+It is the process of recording messages to describe events that have occurred while running your software. 
+
+### Tips for writing good log messages
+
+- Be professional and clear
+- Be concise and use normal capitalization
+- Choose the appropriate level for logging
+	- DEBUG - level you would use for anything that happens in the program.
+	- ERROR - level to record any error that occurs
+	- INFO - level to record all actions that are user-driven or system specific, such as regularly scheduled operations
+- Provide any useful information
+
+## Code Review
+
+The goal of code review isn't to make all code follow one's personal preferences, but a standard of quality for the whole team.
+
+Cide review helps to: 
+- catch errors
+- ensure reliability
+- check that standards are met
+- share knowledge among the team
+
+To review a code, there are a few questions that needs to be asked:
+- Is the code clean and modular?
+- Is the code efficient?
+- Is documentation effective?
+- Is the code well tested?
+- Is the logging effective?
+
+And lastly, to conduct code review: 
+- Use a code linter
+- Explain issues and make suggestions
+- Keep your comments objective
+- Provide code examples
+
+
+For more, see [here](https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html) and [here](https://github.com/lyst/MakingLyst/tree/master/code-reviews)
+
+
 
 
 
