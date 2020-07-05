@@ -1,16 +1,16 @@
 # software Engineering Practices
 
-*** My Learnings/jottings on software Engineering Practices ***
+	***My Learnings/jottings on software Engineering Practices***
 
 These are practices that every developers should learn and apply in their day to day coding activities.
 Every code should be: 
-- Clean
-- Modular
-- Efficient
-- Well documented and
-- version controled
+- [Clean](#writing-clean-code)
+- [Modular](#writing-modular-code)
+- [Efficient](#efficient-code)
+- [Well documented](#documentation) and
+- [version controled](#version-control) 
 
-This code to reused and shared among other developers.
+This makes code to be reused and shared among other developers.
 
 ## Clean Code
 
@@ -48,12 +48,12 @@ This code to reused and shared among other developers.
 
 ## Writing Modular Code
 
-i. DRY (Don't Repeat Yourself)
-ii. Abstract out logic to improve readability
-iii. Minimize the number of entities (functions, classes, modules, etc.)
-iv. Functions should do one thing
-v. Arbitrary variable names can be more effective in certain functions
-vi. Try to use fewer than three arguments per function
+* DRY (Don't Repeat Yourself)
+* Abstract out logic to improve readability
+* Minimize the number of entities (functions, classes, modules, etc.)
+* Functions should do one thing
+* Arbitrary variable names can be more effective in certain functions
+* Try to use fewer than three arguments per function
 
 ## Efficient Code
 
@@ -74,11 +74,12 @@ Several types of documentation can be added at different levels of your program:
 - Docstrings - module and function level
 - Project Documentation - project level
 
-*In-Line Comments:*
+**In-Line Comments:**
 - It is used to document the major steps of complex code to help readers follow. 
 - Comments are valuable for explaining where code cannot.
 
-*Docstrings:*
+**Docstrings:**
+
 Docstrings are valuable pieces of documentation that explain the functionality of any function or module in code. Ideally, each function should always have a docstring.
 
 Docstrings are surrounded by triple quotes. The first line of the docstring is a brief explanation of the function's purpose.
@@ -87,7 +88,7 @@ Docstrings can be
 - one line, or
 - multi line 
 
-## Project Documentation
+**Project Documentation**
 
 Project documentation is essential for getting others to understand why and how your code is relevant to them, whether they are potentials users of your project or developers who may contribute to your code. A great first step in project documentation is your README file. It will often be the first interaction most users will have with your project.
 
