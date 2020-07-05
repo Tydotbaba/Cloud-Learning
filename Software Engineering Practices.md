@@ -1,16 +1,22 @@
 # software Engineering Practices
 
-	***My Learnings/jottings on software Engineering Practices***
+	**My Learnings/jottings on software Engineering Practices**
+
+Software engineering preactices are a crucial part of the software development process. 
 
 These are practices that every developers should learn and apply in their day to day coding activities.
 Every code should be: 
 - [Clean](#writing-clean-code)
 - [Modular](#writing-modular-code)
 - [Efficient](#efficient-code)
-- [Well documented](#documentation) and
+- [Well documented](#documentation) 
 - [version controled](#version-control) 
+- [Tested](#testing)
+- Logging and
+- reviewed
 
 This makes code to be reused and shared among other developers.
+It helps reliability and easier maintenance of source code.
 
 ## Clean Code
 
@@ -97,6 +103,56 @@ Project documentation is essential for getting others to understand why and how 
 
 Version Control helps to keep track of changes in code. This is a very useful tool that helps developers switch to different versions as they code along.
 The most used version control today is [git](https://git-scm.com/).
+
+## Testing
+
+	Every code should be tested before it is being deployed.
+
+	For more info, see Ned Batchelder slide [here](https://speakerdeck.com/pycon2014/getting-started-testing-by-ned-batchelder) and video [here](https://www.youtube.com/watch?v=FxSsnHeWQBY)
+
+Testing helps to catch errors and faulty conclusions before they make any major impact. Proper testing is necessary to avoid unexpected surprises and have confidence in results.
+
+Testing should be done in a way that is repeatable and automated
+
+In software testing, some terms easily come to mind: 
+
+- [Test Driven development](#test-driven-development)
+- [Unit testing](#unit-testing)
+- [Integration testing](#integration-testing)
+
+### Test Driven development
+
+	It is a development process where developers write tests for tasks before writing the code to implement those tasks.
+
+### Unit Testing
+
+	Unit Testing include test that covers a “unit” of code, usually a single function, independently from the rest of the program.
+
+Unit tests has several benefits:
+- They are isolated from the rest of the program/code
+- They do not depend on other part of source code/program
+- They don't require acces to databases, and other external sources of information
+
+#### Python Unit Testing Tool
+
+For python, pytest is the tool used for unit testing. pytest is a framework that makes building simple and scalable tests easy. To start with, see [here](https://docs.pytest.org/en/latest/getting-started.html)
+
+To use pytest:
+- Create a test file starting with test_
+- Define unit test functions that start with test_ inside the test file
+- Enter pytest into your terminal in the directory of your test file and it will detect these tests for you!
+
+**PS:**
+in the test output, periods represent successful unit tests and F's represent failed unit tests. 
+
+### Integration testing
+
+	To show that all the parts of a program work with each other properly, communicating and transferring data between them correctly, integration tests are used.
+
+Integration testing exercises two or more parts of an application at once, including the interactions between the parts, to determine if they function as intended.
+
+See [here](https://www.fullstackpython.com/integration-testing.html) for more info.
+
 
 
 
