@@ -108,7 +108,7 @@ The most used version control today is [git](https://git-scm.com/).
 
 	Every code should be tested before it is being deployed.
 
-	For more info, see Ned Batchelder slide [here](https://speakerdeck.com/pycon2014/getting-started-testing-by-ned-batchelder) and video [here](https://www.youtube.com/watch?v=FxSsnHeWQBY)
+For more info, see Ned Batchelder slide [here](https://speakerdeck.com/pycon2014/getting-started-testing-by-ned-batchelder) and video [here](https://www.youtube.com/watch?v=FxSsnHeWQBY)
 
 Testing helps to catch errors and faulty conclusions before they make any major impact. Proper testing is necessary to avoid unexpected surprises and have confidence in results.
 
@@ -147,7 +147,9 @@ in the test output, periods represent successful unit tests and F's represent fa
 
 ### Integration testing
 
-	To show that all the parts of a program work with each other properly, communicating and transferring data between them correctly, integration tests are used.
+	To show that all the parts of a program work with each other properly, communicating 
+
+	and transferring data between them correctly, integration tests are used.
 
 Integration testing exercises two or more parts of an application at once, including the interactions between the parts, to determine if they function as intended.
 
